@@ -20,7 +20,9 @@ var _studentRoutes = require('./routes/studentRoutes'); var _studentRoutes2 = _i
 var _photoRoutes = require('./routes/photoRoutes'); var _photoRoutes2 = _interopRequireDefault(_photoRoutes);
 
 const whiteList = [
-  'https://localhost:3000',
+  'http://localhost:3001',
+  'http://localhost:3000',
+  'https://pt.wikipedia.org',
 ];
 
 const corsOptions = {
