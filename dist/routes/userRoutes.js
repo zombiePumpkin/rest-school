@@ -12,7 +12,7 @@ const userRoutes = new (0, _express.Router)();
 // userRoutes.get('/', UserController.index); // lista usuarios
 // userRoutes.get('/:id', UserController.show); // lista usuario
 
-userRoutes.post('/', _loginRequired2.default, _UserController2.default.store);
+userRoutes.post('/', _UserController2.default.store);
 userRoutes.put('/', _loginRequired2.default, _UserController2.default.update);
 userRoutes.delete('/', _loginRequired2.default, _UserController2.default.delete);
 

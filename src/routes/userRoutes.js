@@ -12,7 +12,7 @@ const userRoutes = new Router();
 // userRoutes.get('/', UserController.index); // lista usuarios
 // userRoutes.get('/:id', UserController.show); // lista usuario
 
-userRoutes.post('/', loginRequired, UserController.store);
+userRoutes.post('/', UserController.store);
 userRoutes.put('/', loginRequired, UserController.update);
 userRoutes.delete('/', loginRequired, UserController.delete);
 
